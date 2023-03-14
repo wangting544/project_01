@@ -1,0 +1,23 @@
+#获取帮助信息
+git help <verb>
+git  <verb> -h
+eg:git help config
+
+#查看所有的全局配置项
+git config --list --global
+
+#查看指定的全局配置项
+git config user.name
+git config user.email
+
+#在现有目录初始化仓库
+1.在项目目录中，通过鼠标右键打开 “Git Bash”
+2.执行 git init 命令将当前的目录转化为Git仓库
+
+#查看文件状态
+git status
+精简方式显示文件状态  ??未跟踪  A暂存
+git status -s
+
+#跟踪新文件   使文件属于暂存状态
+git add 文件名
